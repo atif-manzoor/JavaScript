@@ -1,0 +1,63 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+
+}
+#card{
+
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    
+}
+#card img{
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+    margin-left: 80px;
+    object-position: center;
+    border-radius: 10px;
+}
+#card h1{
+    font-size: 40px;
+    margin: 10px 0;
+
+ }
+ #card h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(109, 13, 40);
+
+ }
+
+ #card button{
+    background-color:green;
+    padding: 10px;
+    color: black;
+    border-radius: 10px 0;
+    border: none;
+    width: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    cursor: pointer;
+}
+#btLike i{
+    margin-top: 70%;
+    color: rgb(4, 50, 50);
+    font-size: 70px;
+   
+
+}
